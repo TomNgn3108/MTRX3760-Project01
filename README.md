@@ -6,6 +6,9 @@
 * Thomas Nguyen
 * Siddarth Ramasubramanian
 
+### GIT pw
+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
+
 ### Instructions
 
 Launching Gazebo
