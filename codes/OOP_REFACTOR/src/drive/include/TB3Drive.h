@@ -1,17 +1,7 @@
 // Original class was turtlebot_drive taken from simulation example package
+// Class TB3Drive is the main class that controls the bot based on
+// lidar and odom data published by CLidar and CPose nodes.
 // online- Authors: Taehun Lim (Darby). Modified by the team to fit with design
-// Contributions made on this package 
-// Gavin Gao + Zheng Li --> Worked and tested on control algorithms on the bot
-//                          in real life maze on the modified orignal file
-//                          without a proper OOP design principle
-
-// Thomas Nguyen        --> Refactored entire code base to follow OOP design
-//                          while preserving functionality especially control
-//                          algorithms
-
-
-
-
 
 #ifndef TB3DRIVE_H_
 #define TB3DRIVE_H_
@@ -45,7 +35,10 @@ const int TB3_LEFT_TURN     = 3;
 const int TB3_PID_LEFT =  4;
 const int TB3_PID_RIGHT = 5;
 
-// 
+// TB3DRive interface---------------------------------------------------------
+// This class controls the robot based on the lidar readings. The class has the 
+// capabilities to transit states of the robot and compute linear and angular
+// velocities and publish to cmd_vel to set velocity of the bot. 
 
 class TB3Drive
 {

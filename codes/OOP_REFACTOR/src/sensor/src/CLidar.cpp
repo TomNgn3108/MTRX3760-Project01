@@ -56,6 +56,12 @@ void CLidar::LidarScanMsgCallBack(const sensor_msgs::LaserScan::ConstPtr &msg)
     {
       ScanData[num] = msg->ranges.at(SCAN_ANGLE[num]);
     }
+
+    // Infinite range 
+    if( ScanData[num]==0.0)
+    {
+      ScanData[num] = msg->range_max;
+    }
   }
 }
 
