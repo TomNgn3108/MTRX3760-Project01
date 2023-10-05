@@ -1,8 +1,0 @@
-[31m[1mCMake Error[0m at /home/thomas/catkin_ws/src/drive/CMakeLists.txt:54 (add_executable):
-  add_executable cannot create target "TB3Drive" because another target with
-  the same name already exists.  The existing target is a shared library
-  created in source directory "/home/thomas/catkin_ws/src/drive".  See
-  documentation for policy CMP0002 for more details.
-
-
-make: *** [Makefile:1064: cmake_check_build_system] Error 1

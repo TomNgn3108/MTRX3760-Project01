@@ -1,8 +1,0 @@
-prefix=/home/thomas/catkin_ws/install
-
-Name: Core
-Description: Description of Core
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lbot
-Requires: gazebo_ros geometry_msgs nav_msgs roscpp sensor_msgs std_msgs tf

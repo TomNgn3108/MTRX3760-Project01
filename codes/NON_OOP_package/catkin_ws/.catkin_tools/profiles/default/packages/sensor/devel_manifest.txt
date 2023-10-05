@@ -1,6 +1,0 @@
-sensor
-/home/thomas/catkin_ws/devel/.private/sensor/cmake.lock /home/thomas/catkin_ws/devel/./cmake.lock
-/home/thomas/catkin_ws/devel/.private/sensor/lib/pkgconfig/sensor.pc /home/thomas/catkin_ws/devel/lib/pkgconfig/sensor.pc
-/home/thomas/catkin_ws/devel/.private/sensor/lib/sensor/CLidar /home/thomas/catkin_ws/devel/lib/sensor/CLidar
-/home/thomas/catkin_ws/devel/.private/sensor/share/sensor/cmake/sensorConfig-version.cmake /home/thomas/catkin_ws/devel/share/sensor/cmake/sensorConfig-version.cmake
-/home/thomas/catkin_ws/devel/.private/sensor/share/sensor/cmake/sensorConfig.cmake /home/thomas/catkin_ws/devel/share/sensor/cmake/sensorConfig.cmake

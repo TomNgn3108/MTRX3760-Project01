@@ -1,6 +1,0 @@
-drive
-/home/thomas/catkin_ws/devel/.private/drive/cmake.lock /home/thomas/catkin_ws/devel/./cmake.lock
-/home/thomas/catkin_ws/devel/.private/drive/lib/drive/TB3Drive /home/thomas/catkin_ws/devel/lib/drive/TB3Drive
-/home/thomas/catkin_ws/devel/.private/drive/lib/pkgconfig/drive.pc /home/thomas/catkin_ws/devel/lib/pkgconfig/drive.pc
-/home/thomas/catkin_ws/devel/.private/drive/share/drive/cmake/driveConfig.cmake /home/thomas/catkin_ws/devel/share/drive/cmake/driveConfig.cmake
-/home/thomas/catkin_ws/devel/.private/drive/share/drive/cmake/driveConfig-version.cmake /home/thomas/catkin_ws/devel/share/drive/cmake/driveConfig-version.cmake

@@ -1,7 +1,0 @@
-[31m[1mCMake Error[0m at /home/thomas/catkin_ws/src/drive/CMakeLists.txt:56 (target_link_libraries):
-  Target "TB3Drive" of type EXECUTABLE may not be linked into another target.
-  One may link only to INTERFACE, OBJECT, STATIC or SHARED libraries, or to
-  executables with the ENABLE_EXPORTS property set.
-
-
-make: *** [Makefile:1064: cmake_check_build_system] Error 1

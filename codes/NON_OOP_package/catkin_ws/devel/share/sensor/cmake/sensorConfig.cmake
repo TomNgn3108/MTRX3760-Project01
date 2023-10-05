@@ -1,1 +1,0 @@
-/home/thomas/catkin_ws/devel/.private/sensor/share/sensor/cmake/sensorConfig.cmake

@@ -1,7 +1,0 @@
-[01m[K/home/thomas/catkin_ws/src/drive/src/TB3Drive.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdrive/include/TB3Drive.h: No such file or directory
-    1 | #include [01;31m[K"drive/include/TB3Drive.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/TB3Drive.dir/build.make:63: CMakeFiles/TB3Drive.dir/src/TB3Drive.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:1724: CMakeFiles/TB3Drive.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
