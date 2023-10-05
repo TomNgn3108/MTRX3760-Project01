@@ -1,0 +1,8 @@
+prefix=/home/thomas/catkin_ws/devel/.private/drive
+
+Name: drive
+Description: Description of drive
+Version: 0.0.0
+Cflags: -I/home/thomas/catkin_ws/src/drive/include
+Libs: -L${prefix}/lib -ldrive/include
+Requires: geometry_msgs nav_msgs roscpp sensor_msgs std_msgs tf gazebo_ros
