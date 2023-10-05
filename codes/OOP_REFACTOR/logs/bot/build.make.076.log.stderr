@@ -1,0 +1,7 @@
+[01m[K/home/thomas/catkin_ws/src/bot/src/CPose.cpp:[m[K In constructor ‘[01m[KCPose::CPose()[m[K’:
+[01m[K/home/thomas/catkin_ws/src/bot/src/CPose.cpp:8:43:[m[K [01;31m[Kerror: [m[K‘[01m[KCBot[m[K’ has not been declared
+    8 |   odomSub = nh_.subscribe("odom", QSize, &[01;31m[KCBot[m[K::odomMsgCallBack, this);
+      |                                           [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/CPose.dir/build.make:63: CMakeFiles/CPose.dir/src/CPose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1724: CMakeFiles/CPose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

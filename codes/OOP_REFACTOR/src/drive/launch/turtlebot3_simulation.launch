@@ -1,0 +1,10 @@
+<launch>
+  <arg name="cmd_vel" default="/cmd_vel"/>
+  <arg name="name" default="turtlebot3"/>
+
+  <param name="cmd_vel_topic_name" value="$(arg cmd_vel)"/>
+
+  <node name="drive" pkg="drive" type="TB3Drive" required="true" output="screen"/>
+  <node name="lidar" pkg="sensor" type="CLidar" required="true" output="screen"/>
+  <node name="pose" pkg="bot" type="CPose" required="true" output="screen"/>
+</launch>
