@@ -1,0 +1,5 @@
+core
+/home/thomas/catkin_ws/devel/.private/core/cmake.lock /home/thomas/catkin_ws/devel/./cmake.lock
+/home/thomas/catkin_ws/devel/.private/core/lib/pkgconfig/core.pc /home/thomas/catkin_ws/devel/lib/pkgconfig/core.pc
+/home/thomas/catkin_ws/devel/.private/core/share/core/cmake/coreConfig-version.cmake /home/thomas/catkin_ws/devel/share/core/cmake/coreConfig-version.cmake
+/home/thomas/catkin_ws/devel/.private/core/share/core/cmake/coreConfig.cmake /home/thomas/catkin_ws/devel/share/core/cmake/coreConfig.cmake
