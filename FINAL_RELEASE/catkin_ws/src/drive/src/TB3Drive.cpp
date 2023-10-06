@@ -1,6 +1,6 @@
 #include "TB3Drive.h"
 
-// Implementation file for class CLidar
+// Implementation file for class TB3Drive
 // Functions :
 //            - Constructor
 //            - Destructor
