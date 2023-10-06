@@ -5,12 +5,14 @@ CMakeFiles/CPose.dir/src/CPose.cpp.o: /home/thomas/catkin_ws/src/bot/include/CPo
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /home/thomas/catkin_ws/src/bot/src/CPose.cpp
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/Point.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/Pose.h
+CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/PoseStamped.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/PoseWithCovariance.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/Twist.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/TwistWithCovariance.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/geometry_msgs/Vector3.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/nav_msgs/Odometry.h
+CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/nav_msgs/Path.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/ros/advertise_options.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/ros/advertise_service_options.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/ros/assert.h
@@ -68,8 +70,10 @@ CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/ros/wall_timer.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/ros/wall_timer_options.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/rosconsole/macros_generated.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/sensor_msgs/LaserScan.h
+CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/std_msgs/ColorRGBA.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/std_msgs/Float64.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/std_msgs/Header.h
+CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/visualization_msgs/Marker.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
 CMakeFiles/CPose.dir/src/CPose.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
 

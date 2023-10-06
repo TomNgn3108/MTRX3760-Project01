@@ -3,16 +3,22 @@
 // It publishes pose to Drive class . The purpose of this is to isolate 
 // capability of reading in odom values and calculate position value so
 // that errors can be identified easily -- Follow OOP design
+// Added functionality: this class can be also 
 #ifndef CPOSE_H_
 #define CPOSE_H_
 #include <ros/ros.h>
 #include <sensor_msgs/LaserScan.h>
 #include <geometry_msgs/Twist.h>
+#include <geometry_msgs/Pose.h>
 #include <nav_msgs/Odometry.h>
+#include <nav_msgs/Path.h>
+#include <visualization_msgs/Marker.h>
+
+
 #include <vector>
 #include<std_msgs/Float64.h>
 
-
+const char trajectoryTopic[] = "visualization_marker";
 const char topicName[] = "POSE";
 // Set queue size big to prevent loss if any 
 // delay occurs
@@ -31,6 +37,7 @@ class CPose{
     ~CPose();
     void odomMsgCallBack(const nav_msgs::Odometry::ConstPtr &msg);
     void PublishPose();
+    void TrajectoryVisualise();
     
   private:
     // ROS NodeHandle
@@ -42,13 +49,18 @@ class CPose{
 
     // Publisher
     ros::Publisher botPub;
+    ros::Publisher TrajectoryPub;
 
-    // Pose data from odometry
-    double curLinVel;
-    double curAngVel;
-
+    // Pose message
     double tb3Pose;
-    std_msgs::Float64 msg;
+
+    // Store Pose 
+    geometry_msgs::Pose odomPose;
+    std_msgs::Float64 msg;  
+
+    //trajectory plot msgs
+    visualization_msgs::Marker trajectoryMsg;
+
 };
 
 #endif

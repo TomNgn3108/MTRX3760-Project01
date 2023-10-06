@@ -101,8 +101,7 @@ bool TB3Drive::controlLoop()
   // check for left turn flag
   if ((lidarData[CENTER] <= forwardTarget)&&(leftTurnFlag==STRAIGHT))
   {
-    leftTurnFlag = 1;  // check for left turn flag
-    ROS_INFO("[left turn flag ]: left turn flag is set");
+    leftTurnFlag = LEFT_TURN;  // check for left turn flag
   }
   else if((lidarData[CENTER] != 0)&&(leftTurnFlag==DEFAULT_STATE))
   {
